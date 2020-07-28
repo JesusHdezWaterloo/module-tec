@@ -4,7 +4,7 @@ import com.clean.swing.app.AbstractSwingApplication;
 import com.clean.swing.app.AbstractSwingMainModule;
 import com.clean.swing.app.dashboard.DashBoardSimple;
 import com.clean.swing.app.dashboard.DashboardConstants;
-import com.jhw.swing.material.standars.MaterialIcons;
+import com.jhw.swing.material.standards.MaterialIcons;
 import com.jhw.swing.util.AbstractActionUtils;
 
 public class TecSwingModule implements AbstractSwingMainModule {
