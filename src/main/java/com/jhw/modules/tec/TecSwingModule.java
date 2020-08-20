@@ -9,6 +9,13 @@ import com.jhw.swing.util.AbstractActionUtils;
 
 public class TecSwingModule implements AbstractSwingMainModule {
 
+    private TecSwingModule() {
+    }
+
+    public static TecSwingModule init() {
+        return new TecSwingModule();
+    }
+
     @Override
     public void register(AbstractSwingApplication app) {
         System.out.println("Creando 'Tecnologias'");
