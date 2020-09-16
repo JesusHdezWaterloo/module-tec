@@ -1,13 +1,20 @@
 package com.jhw.modules.tec;
 
 import com.clean.swing.app.AbstractSwingApplication;
-import com.clean.swing.app.AbstractSwingMainModule;
+import com.clean.swing.app.DefaultAbstractSwingMainModule;
 import com.clean.swing.app.dashboard.DashBoardSimple;
 import com.clean.swing.app.dashboard.DashboardConstants;
 import com.jhw.swing.material.standards.MaterialIcons;
 import com.jhw.swing.util.AbstractActionUtils;
 
-public class TecSwingModule implements AbstractSwingMainModule {
+public class TecSwingModule extends DefaultAbstractSwingMainModule {
+
+    private TecSwingModule() {
+    }
+
+    public static TecSwingModule init() {
+        return new TecSwingModule();
+    }
 
     @Override
     public void register(AbstractSwingApplication app) {
@@ -47,14 +54,5 @@ public class TecSwingModule implements AbstractSwingMainModule {
 
     }
 
-    /**
-     * Dont need navigation
-     *
-     * @param string
-     * @param o
-     */
-    @Override
-    public void navigateTo(String string, Object... o) {
-    }
 
 }
