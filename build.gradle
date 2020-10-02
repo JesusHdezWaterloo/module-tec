@@ -2,9 +2,7 @@ plugins {
     id 'java'
 }
 
-group = 'com.jhw.modules.tec'
-
-//mainClassName = 'com.jhw.modules.tec.Main'
+group = 'com.jhw.module.util'
 
 repositories {
     jcenter()
