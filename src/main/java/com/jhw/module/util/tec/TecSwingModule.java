@@ -1,4 +1,4 @@
-package com.jhw.modules.tec;
+package com.jhw.module.util.tec;
 
 import com.clean.swing.app.AbstractSwingApplication;
 import com.clean.swing.app.DefaultAbstractSwingMainModule;
