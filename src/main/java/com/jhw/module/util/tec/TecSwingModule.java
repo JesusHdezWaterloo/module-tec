@@ -44,6 +44,8 @@ public class TecSwingModule extends DefaultAbstractSwingMainModule {
         dash.addKeyValue(DashboardConstants.DOWN_ELEMENT,
                 AbstractActionUtils.from("GitHub (Servidor Git)", MaterialIcons.TEC_GITHUB));
         dash.addKeyValue(DashboardConstants.DOWN_ELEMENT,
+                AbstractActionUtils.from("Kanban (Organización de proyecto)", MaterialIcons.TEC_KANBAN));
+        dash.addKeyValue(DashboardConstants.DOWN_ELEMENT,
                 AbstractActionUtils.from("Flaticon (Iconos)", MaterialIcons.TEC_FLATICON));
         dash.addKeyValue(DashboardConstants.DOWN_ELEMENT,
                 AbstractActionUtils.from("Freepick (Diseños)", MaterialIcons.TEC_FREEPICK));
