@@ -18,7 +18,7 @@ public class TecSwingModule extends DefaultAbstractSwingMainModule {
 
     @Override
     public void register(AbstractSwingApplication app) {
-        System.out.println("Creando 'Tecnologias'");
+        System.out.println("Iniciando 'Tecnologias'");
         registerTecnologyElements(app);
     }
 
@@ -28,15 +28,19 @@ public class TecSwingModule extends DefaultAbstractSwingMainModule {
         dash.addKeyValue(DashboardConstants.DOWN_ELEMENT,
                 AbstractActionUtils.from("JAVA 1.8.60(Lenguaje de programación)", MaterialIcons.TEC_JAVA));
         dash.addKeyValue(DashboardConstants.DOWN_ELEMENT,
-                AbstractActionUtils.from("NetBeans 8.0(IDE)", MaterialIcons.TEC_NB));
+                AbstractActionUtils.from("NetBeans 12.0(IDE)", MaterialIcons.TEC_NB));
         dash.addKeyValue(DashboardConstants.DOWN_ELEMENT,
-                AbstractActionUtils.from("MySql 10.4.8 (BD)", MaterialIcons.TEC_MYSQL));
+                AbstractActionUtils.from("Spring Boot 2.1.7 (Servicio REST)", MaterialIcons.TEC_SPRING));
         dash.addKeyValue(DashboardConstants.DOWN_ELEMENT,
-                AbstractActionUtils.from("XAMPP 3.2.4 (Cliente Servicios)", MaterialIcons.TEC_XAMPP));
+                AbstractActionUtils.from("Apache Tomcat 9.0.22 (Host servicio REST)", MaterialIcons.TEC_TOMCAT));
+        dash.addKeyValue(DashboardConstants.DOWN_ELEMENT,
+                AbstractActionUtils.from("MySql 10.4.11-MariaDB (BD)", MaterialIcons.TEC_MYSQL));
+        dash.addKeyValue(DashboardConstants.DOWN_ELEMENT,
+                AbstractActionUtils.from("XAMPP 3.2.4 (Cliente de Servicios)", MaterialIcons.TEC_XAMPP));
         dash.addKeyValue(DashboardConstants.DOWN_ELEMENT,
                 AbstractActionUtils.from("Git 2.20.1 (Control de versiones)", MaterialIcons.TEC_GIT));
         dash.addKeyValue(DashboardConstants.DOWN_ELEMENT,
-                AbstractActionUtils.from("GitKraken 6.4.0 (Cliente Git)", MaterialIcons.TEC_GITKRAKEN));
+                AbstractActionUtils.from("GitKraken 7.0.1 (Cliente Git)", MaterialIcons.TEC_GITKRAKEN));
         dash.addKeyValue(DashboardConstants.DOWN_ELEMENT,
                 AbstractActionUtils.from("GitHub (Servidor Git)", MaterialIcons.TEC_GITHUB));
         dash.addKeyValue(DashboardConstants.DOWN_ELEMENT,
@@ -51,8 +55,9 @@ public class TecSwingModule extends DefaultAbstractSwingMainModule {
                 AbstractActionUtils.from("JSON (Ficheros)", MaterialIcons.TEC_JSON));
         dash.addKeyValue(DashboardConstants.DOWN_ELEMENT,
                 AbstractActionUtils.from("WhatsApp (Contacto: +53 5 4268660)", MaterialIcons.TEC_WHATSAPP));
+        dash.addKeyValue(DashboardConstants.DOWN_ELEMENT,
+                AbstractActionUtils.from("Telegram (Contacto: +53 5 4268660)", MaterialIcons.TEC_WHATSAPP));
 
     }
-
 
 }
