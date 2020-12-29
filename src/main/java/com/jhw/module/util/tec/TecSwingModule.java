@@ -32,6 +32,8 @@ public class TecSwingModule extends DefaultAbstractSwingMainModule {
         dash.addKeyValue(DashboardConstants.DOWN_ELEMENT,
                 AbstractActionUtils.from("Spring Boot 2.1.7 (Servicio REST)", MaterialIcons.TEC_SPRING));
         dash.addKeyValue(DashboardConstants.DOWN_ELEMENT,
+                AbstractActionUtils.from("Gradle 5.4.1 (Automatización de compilación)", MaterialIcons.TEC_GRADLE));
+        dash.addKeyValue(DashboardConstants.DOWN_ELEMENT,
                 AbstractActionUtils.from("Apache Tomcat 9.0.22 (Host servicio REST)", MaterialIcons.TEC_TOMCAT));
         dash.addKeyValue(DashboardConstants.DOWN_ELEMENT,
                 AbstractActionUtils.from("MySql 10.4.11-MariaDB (BD)", MaterialIcons.TEC_MYSQL));
@@ -52,13 +54,13 @@ public class TecSwingModule extends DefaultAbstractSwingMainModule {
         dash.addKeyValue(DashboardConstants.DOWN_ELEMENT,
                 AbstractActionUtils.from("Adobe (Ai y Ps para el diseño de imágenes)", MaterialIcons.TEC_ADOBE));
         dash.addKeyValue(DashboardConstants.DOWN_ELEMENT,
-                AbstractActionUtils.from("Google (Material Design)", MaterialIcons.TEC_GOOGLE));
+                AbstractActionUtils.from("Google (Material Design)", MaterialIcons.TEC_MATERIAL_DESIGN));
         dash.addKeyValue(DashboardConstants.DOWN_ELEMENT,
                 AbstractActionUtils.from("JSON (Ficheros)", MaterialIcons.TEC_JSON));
         dash.addKeyValue(DashboardConstants.DOWN_ELEMENT,
                 AbstractActionUtils.from("WhatsApp (Contacto: +53 5 4268660)", MaterialIcons.TEC_WHATSAPP));
         dash.addKeyValue(DashboardConstants.DOWN_ELEMENT,
-                AbstractActionUtils.from("Telegram (Contacto: +53 5 4268660)", MaterialIcons.TEC_WHATSAPP));
+                AbstractActionUtils.from("Telegram (Contacto: +53 5 4268660)", MaterialIcons.TEC_TELEGRAM));
 
     }
 
