@@ -1,11 +1,11 @@
 package com.jhw.module.util.tec;
 
-import com.clean.swing.app.AbstractSwingApplication;
-import com.clean.swing.app.DefaultAbstractSwingMainModule;
-import com.clean.swing.app.dashboard.DashBoardSimple;
-import com.clean.swing.app.dashboard.DashboardConstants;
-import com.jhw.swing.material.standards.MaterialIcons;
-import com.jhw.swing.util.AbstractActionUtils;
+import com.root101.clean.swing.app.AbstractSwingApplication;
+import com.root101.clean.swing.app.DefaultAbstractSwingMainModule;
+import com.root101.clean.swing.app.dashboard.DashBoardSimple;
+import com.root101.clean.swing.app.dashboard.DashboardConstants;
+import com.root101.swing.material.standards.MaterialIcons;
+import com.root101.swing.util.AbstractActionUtils;
 
 public class TecSwingModule extends DefaultAbstractSwingMainModule {
 
